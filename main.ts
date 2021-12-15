@@ -6,6 +6,7 @@ basic.forever(function () {
         . # # # .
         . . # . .
         `)
+    music.playMelody("A B C5 B A A B C ", 120)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -13,5 +14,11 @@ basic.forever(function () {
         . . . . .
         . . . . .
         `)
-    music.playMelody("A B C5 B A A B C ", 120)
+    basic.showLeds(`
+        . # . # .
+        # # # # #
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
 })
